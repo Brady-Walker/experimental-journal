@@ -1,10 +1,10 @@
 version: 2
 jobs:
-   build:
-     docker:
-       - image: circleci/node:9
-     steps:
-       - checkout
-       - run:
+  build:
+    docker:
+      - image: circleci/node:9
+    steps:
+      - checkout
+      - run:
         - name: Test
         - command: echo "hello rowld"
