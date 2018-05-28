@@ -7,4 +7,4 @@ jobs:
        - checkout
        - run:
         - name: Test
-        - command: echo "hello world"
+        - command: echo "hello rowld"
