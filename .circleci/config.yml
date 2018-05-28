@@ -5,6 +5,9 @@ jobs:
       - image: circleci/node:9
     steps:
       - checkout
-      - run:
-        - name: Test
-        - command: echo "hello rowld"
+      - run: echo "hello world"
+workflows:
+  version: 2
+  build_for_me_precious:
+    jobs:
+      - build
